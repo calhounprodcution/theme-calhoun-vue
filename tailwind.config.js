@@ -34,6 +34,7 @@ export default {
       white: '#FFFFFF',
       whitesmoke: 'whitesmoke',
       black: '#000000',
+      black850: 'rgba(0,0,0,.85)',
       gray: '#9ca3af',
       whatsapp: '#29B65D'
     },
