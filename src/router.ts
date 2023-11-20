@@ -41,6 +41,21 @@ const router = createRouter({
                     path: '',
                     name: 'medium.medium.1.home',
                     component: () => import('./medium/medium_1/views/Medium1Home.vue')
+                },
+                {
+                    path: 'product',
+                    name: 'medium.medium.1.product',
+                    component: () => import('./medium/medium_1/views/Medium1Product.vue')
+                },
+                {
+                    path: 'about',
+                    name: 'medium.medium.1.about',
+                    component: () => import('./medium/medium_1/views/Medium1About.vue')
+                },
+                {
+                    path: 'contact',
+                    name: 'medium.medium.1.contact',
+                    component: () => import('./medium/medium_1/views/Medium1Contact.vue')
                 }
             ]
         },

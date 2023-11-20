@@ -12,21 +12,85 @@
             Swiper,
             SwiperSlide,
         },
-        data() {
+        data: function() {
             return {
                 listNavbar: ['home', 'about', 'service', 'client', 'contact'],
+                allNavbar: [
+                    { name: 'home', link: '#home' },
+                ],
                 mobileNav: false,
-                activeNav: 'home'
+                activeNav: 'home',
+                allSection: [
+                    { name: 'home', offsetTop: -1, height: -1 },
+                    { name: 'about', offsetTop: -1, height: -1 },
+                    { name: 'service', offsetTop: -1, height: -1 },
+                    { name: 'client', offsetTop: -1, height: -1 },
+                    { name: 'contact', offsetTop: -1, height: -1 },
+                ]
             };
         },
-        mounted: () => {
+        // beforeMount: function() {
+        //     window.addEventListener('scroll', this.handleScroll);
+        // },
+        // unmounted: function() {
+        //     window.removeEventListener('scroll', this.handleScroll);
+        // },
+        mounted: function() {
             AOS.init()
+            // this.getOffsetTopElement()
         },
         methods: {
-            showMenuMobile() {
+            getOffsetTopElement: function() {
+                const home_section = this.$refs['home_section'] as HTMLElement;
+                const about_section = this.$refs['about_section'] as HTMLElement;
+                const service_section = this.$refs['service_section'] as HTMLElement;
+                const client_section = this.$refs['client_section'] as HTMLElement;
+                const contact_section = this.$refs['contact_section'] as HTMLElement;
+                this.allSection = [
+                    { 
+                        name: 'home', 
+                        offsetTop: home_section.offsetTop, 
+                        height: home_section.getBoundingClientRect().height 
+                    },
+                    { 
+                        name: 'about', 
+                        offsetTop: about_section.offsetTop, 
+                        height: about_section.getBoundingClientRect().height 
+                    },
+                    { 
+                        name: 'service', 
+                        offsetTop: service_section.offsetTop, 
+                        height: service_section.getBoundingClientRect().height 
+                    },
+                    { 
+                        name: 'client', 
+                        offsetTop: client_section.offsetTop, 
+                        height: client_section.getBoundingClientRect().height 
+                    },
+                    { 
+                        name: 'contact', 
+                        offsetTop: contact_section.offsetTop, 
+                        height: contact_section.getBoundingClientRect().height 
+                    },
+                ]
+                
+            },
+            handleScroll: function () {
+                this.allSection.forEach(section => {
+                    let top = window.scrollY;
+                    let offset = section.offsetTop
+                    let height = section.height
+                    if (height > 0) {
+                        if (top >= offset && top < offset + height) {
+                            this.activeNav = section.name
+                        }
+                    }
+                })
+            },
+            showMenuMobile: function() {
                 this.mobileNav = !this.mobileNav;
             },
-            replaceActiveNav(nav: string) {
+            replaceActiveNav: function(nav: string) {
                 if (this.listNavbar.includes(nav)) {
                     this.activeNav = nav
                 } else {
@@ -78,14 +142,14 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#services" 
+                    <a href="#service" 
                         @click="replaceActiveNav('service')"
                         :class="{ active: activeNav === 'service' }">
                         Services
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a href="#clients" 
+                    <a href="#client" 
                         @click="replaceActiveNav('client')"
                         :class="{ active: activeNav === 'client' }">
                         Clients
@@ -157,7 +221,7 @@
     <!-- END NAVBAR MOBILE -->
 
     <main>
-        <section id="home" datasection class="h-screen w-screen">
+        <section id="home" datasection class="h-screen w-screen" ref="home_section">
             <div class="px-4 sm:container mx-auto">
                 <div class="h-screen flex flex-col justify-center items-center md:items-start">
                     <h1 class="text-5xl font-bold mb-4">Your Company</h1>
@@ -166,7 +230,7 @@
                 </div>
             </div>
         </section>
-        <section id="about" datasection>
+        <section id="about" datasection ref="about_section">
             <div class="px-4 py-24 sm:container mx-auto">
                 <div class="flex justify-between flex-wrap gap-y-10">
                     <div class="w-full md:w-[50%]">
@@ -205,12 +269,12 @@
                         </div>
                     </div>
                     <div class="w-full md:w-[45%]">
-                        <img class="h-full w-full" alt="Company Banner" src="../assets/img/image.png" >
+                        <img class="h-full w-full" alt="Company Banner" src="../assets/img/about-hero.webp" >
                     </div>
                 </div>
             </div>
         </section>
-        <section id="services" datasection class="bg-whitesmoke">
+        <section id="service" datasection class="bg-whitesmoke" ref="service_section">
             <div class="px-4 py-20 sm:container mx-auto">
                 <div class="pt-10 pb-20">
                     <h5 class="text-base font-semibold"
@@ -268,7 +332,7 @@
                 </div>
             </div>
         </section>
-        <section id="clients" datasection>
+        <section id="client" datasection ref="client_section">
             <div class="px-4 py-20 sm:container mx-auto">
                 <div class="pt-10 pb-20">
                     <h5 class="text-base font-semibold" 
@@ -392,7 +456,7 @@
                 </div>
             </div>
         </section>
-        <section id="contact" datasection>
+        <section id="contact" datasection ref="contact_section">
             <div class="px-4 py-20 sm:container mx-auto">
                 <div class="pt-10 pb-20">
                     <h5 class="text-base font-semibold" 
@@ -555,9 +619,14 @@
     /* END NAVBAR */
 
     /* START SECTIONS */
+    #home {
+        background-image: url(../assets/img/home-hero.jpg);
+    }
+    #contact {
+        background-image: url(../assets/img/contact-hero.jpg);
+    }
     #home, #contact {
         position: relative;
-        background-image: url(../assets/img/image.png);
         background-color: rgba(0, 0, 0, .5);
         background-repeat: no-repeat;
         background-size: cover;

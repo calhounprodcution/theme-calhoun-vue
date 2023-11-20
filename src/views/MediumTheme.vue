@@ -14,7 +14,7 @@
             <div class="flex flex-wrap gap-y-10 justify-between">
                 <div class="w-full bg-white drop-shadow flex flex-col items-center p-2 md:w-[49%] xl:w-[24%]">
                     <img class="w-full" src="../assets/theme_large.jpg" alt="">
-                    <RouterLink :to="{ name: 'medium.medium.1' }">
+                    <RouterLink :to="{ name: 'medium.medium.1.home' }">
                         <p class="button__open__theme button__tamaya" data-text="OPEN THEME"><span>OPEN THEME</span></p>
                     </RouterLink>
                 </div>
