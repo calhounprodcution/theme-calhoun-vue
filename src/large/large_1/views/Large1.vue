@@ -5,7 +5,7 @@
     export default {
         data: function() {
             return {
-                listNavbar: ['home', 'about', 'service', 'client', 'contact'],
+                listNavbar: ['home', 'about', 'product', 'gallery', 'contact'],
                 mobileNav: false,
                 activeNav: 'home',
             };
@@ -69,6 +69,13 @@
                     </RouterLink>
                 </li>
                 <li class="nav-item">
+                    <RouterLink :to="{ name: 'large.large.1.gallery' }"
+                                :class="{ active: activeNav === 'gallery' }"
+                                @click.native="replaceActiveNav('gallery')">
+                        Gallery
+                    </RouterLink>
+                </li>
+                <li class="nav-item">
                     <RouterLink :to="{ name: 'large.large.1.contact' }"
                                 :class="{ active: activeNav === 'contact' }"
                                 @click.native="replaceActiveNav('contact')">
@@ -109,6 +116,14 @@
                                 :class="{ active: activeNav === 'product' }"
                                 @click.native="replaceActiveNav('product')">
                         Product
+                    </RouterLink>
+                </li>
+                <li class="nav-mobile-item">
+                    <RouterLink :to="{ name: 'large.large.1.gallery' }"
+                                class="nav-mobile-link"
+                                :class="{ active: activeNav === 'gallery' }"
+                                @click.native="replaceActiveNav('gallery')">
+                        Gallery
                     </RouterLink>
                 </li>
                 <li class="nav-mobile-item">

@@ -95,8 +95,8 @@
         <div class="flex flex-col gap-y-5">
             <h2 class="sub__header text-[35px] text-center text-black850">Our Products</h2>
             <p class="text__content text-center text-black850">The products we sell are disposable products with the best quality, have complete certification, are registered in the E-Catalogue and have been tested in various hospitals throughout Indonesia.</p>
-            <div class="flex flex-wrap justify-start gap-6 mt-8">
-                <div class="md:w-[48%] xl:w-[32%] card__product">
+            <div class="flex flex-wrap justify-between gap-6 mt-8">
+                <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-paper-plane text-[150px]"></i>
                     <h4 class="sub__header mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
                     <p class="text__content text-black850 text-center mb-8">
@@ -104,7 +104,7 @@
                     </p>
                     <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%] card__product">
+                <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-wifi text-[150px]"></i>
                     <h4 class="sub__header mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
                     <p class="text__content text-black850 text-center mb-8">
@@ -112,7 +112,7 @@
                     </p>
                     <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%] card__product">
+                <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-stopwatch text-[150px]"></i>
                     <h4 class="sub__header mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
                     <p class="text__content text-black850 text-center mb-8">
@@ -127,38 +127,38 @@
         <div class="flex flex-col gap-y-5">
             <h2 class="sub__header text-[35px] text-center text-black850">Our Adventages</h2>
             <p class="text__content text-center text-black850">As a medical device distributor company, we prioritize customer satisfaction with the best products and services.</p>
-            <div class="flex flex-wrap justify-start gap-6 mt-8">
-                <div class="md:w-[48%] xl:w-[32%]">
+            <div class="flex flex-wrap justify-between gap-6 mt-8">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%]">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%]">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%]">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%]">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
-                <div class="md:w-[48%] xl:w-[32%]">
+                <div class="md:w-[47%] xl:w-[30%]">
                     <h4 class="sub__header mb-3">Adventage 1</h4>
                     <p class="text__content text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
