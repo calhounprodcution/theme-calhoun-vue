@@ -479,9 +479,9 @@
                         <div>
                             <h4 class="text-2xl font-bold mb-4">OFFICE</h4>
                             <p>Jalan Anugerah No.116 Kp.Kebantenan Jatiasih, Jatiasih, Bekasi, Jawa Barat, 17423</p>
-                            <p><span class="w-16">Phone</span>: 0817-6708-816</p>
-                            <p><span class="w-16">Email</span>: ptabadinusarayasakti@gmail.com</p>
-                            <p><span class="w-16">Marketing</span>: ptabadinusarayasakti@gmail.com</p>
+                            <p><span class="w-24">Phone</span>: 0817-6708-816</p>
+                            <p><span class="w-24">Email</span>: ptabadinusarayasakti@gmail.com</p>
+                            <p><span class="w-24">Marketing</span>: ptabadinusarayasakti@gmail.com</p>
                         </div>
                         <div>
                             <h4 class="text-2xl font-bold mb-5">FOLLOW US</h4>
