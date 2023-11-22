@@ -94,11 +94,11 @@
     <div class="px-4 py-20 sm:container mx-auto">
         <div class="flex flex-col gap-y-5">
             <h2 class="text-[35px] text-center font-bold text-black850">Our Products</h2>
-            <p class="text-center text-black850">The products we sell are disposable products with the best quality, have complete certification, are registered in the E-Catalogue and have been tested in various hospitals throughout Indonesia.</p>
+            <p class="text-center text-black850">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             <div class="flex flex-wrap justify-between gap-6 mt-8">
                 <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-paper-plane text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
+                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
                     <p class="text-black850 text-center mb-8">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
                     </p>
@@ -106,7 +106,7 @@
                 </div>
                 <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-wifi text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
+                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
                     <p class="text-black850 text-center mb-8">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
                     </p>
@@ -114,7 +114,7 @@
                 </div>
                 <div class="md:w-[47%] xl:w-[30%] card__product">
                     <i class="fa-solid fa-stopwatch text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center">Adventage 1</h4>
+                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
                     <p class="text-black850 text-center mb-8">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
                     </p>
@@ -134,40 +134,40 @@
     <div class="px-4 py-20 sm:container mx-auto">
         <div class="flex flex-col gap-y-5">
             <h2 class="text-[35px] text-center font-bold text-black850">Our Adventages</h2>
-            <p class="text-center text-black850">As a medical device distributor company, we prioritize customer satisfaction with the best products and services.</p>
+            <p class="text-center text-black850">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
             <div class="flex flex-wrap justify-between gap-6 mt-8">
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
                 </div>
                 <div class="md:w-[47%] xl:w-[30%]">
-                    <h4 class="mb-3">Adventage 1</h4>
+                    <h4 class="mb-3 font-bold">Adventage 1</h4>
                     <p class="text-justify text-black850">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis. Sunt quaerat, minus dignissimos maiores sit reprehenderit. Assumenda, nam reprehenderit.
                     </p>
@@ -175,6 +175,170 @@
             </div>
         </div>
     </div>
+
+    <div class="px-4 py-20 sm:container mx-auto">
+        <div class="flex flex-col gap-y-5">
+            <h2 class="text-[35px] text-center font-bold text-black850">Our Clients</h2>
+            <p class="text-center text-black850 mb-8">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <div class="mb-12">
+                <swiper
+                    :slides-per-view="2"
+                    :space-between="50"
+                    :loop="true"
+                    @swiper="onSwiper"
+                    @slideChange="onSlideChange"
+                    class="mySwiper"
+                    :modules="modules"
+                    :autoplay="{
+                        delay: 1000,
+                        pauseOnMouseEnter: true,
+                        disableOnInteraction: false
+                    }"
+                    :breakpoints="{
+                        '640': {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                        '768': {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                        },
+                        '1024': {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    }"
+                >
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                </swiper>
+            </div>
+            <div class="mb-12">
+                <swiper
+                    :slides-per-view="2"
+                    :space-between="50"
+                    :loop="true"
+                    @swiper="onSwiper"
+                    @slideChange="onSlideChange"
+                    class="mySwiper"
+                    :modules="modules"
+                    :autoplay="{
+                        delay: 1000,
+                        pauseOnMouseEnter: true,
+                        disableOnInteraction: false
+                    }"
+                    :breakpoints="{
+                        '640': {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                        '768': {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                        },
+                        '1024': {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    }"
+                >
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                </swiper>
+            </div>
+            <div class="mb-12">
+                <swiper
+                    :slides-per-view="2"
+                    :space-between="50"
+                    :loop="true"
+                    @swiper="onSwiper"
+                    @slideChange="onSlideChange"
+                    class="mySwiper"
+                    :modules="modules"
+                    :autoplay="{
+                        delay: 1000,
+                        pauseOnMouseEnter: true,
+                        disableOnInteraction: false
+                    }"
+                    :breakpoints="{
+                        '640': {
+                            slidesPerView: 3,
+                            spaceBetween: 30,
+                        },
+                        '768': {
+                            slidesPerView: 4,
+                            spaceBetween: 30,
+                        },
+                        '1024': {
+                            slidesPerView: 5,
+                            spaceBetween: 50,
+                        },
+                    }"
+                >
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                    <swiper-slide>
+                        <img src="../assets/img/Dummy Logo.png" height="50" width="150" alt="">
+                    </swiper-slide>
+                </swiper>
+            </div>
+        </div>
+    </div>
+
     <div class="bg-black">
         <div class="px-4 py-16 sm:container mx-auto">
             <div class="flex flex-col gap-y-4 md:justify-between md:flex-row md:items-center">

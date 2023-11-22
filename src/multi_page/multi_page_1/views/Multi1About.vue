@@ -19,6 +19,7 @@
         </div>
     </div>
     <div class="px-4 py-12 sm:container mx-auto">
+        <h2 class="text-[35px] font-bold text-black850 mb-4">Vision & Mission</h2>
         <div class="flex flex-wrap justify-between gap-6">
             <div class="md:w-[48%] card__product">
                 <h4 class="mb-4 text-3xl font-bold">Vision</h4>
@@ -36,6 +37,27 @@
                     <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
                     <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
                 </ul> -->
+            </div>
+        </div>
+    </div>
+
+    <div class="px-4 py-12 sm:container mx-auto">
+        <h2 class="text-[35px] font-bold text-black850 mb-4">Our Teams</h2>
+        <div class="flex flex-wrap justify-start gap-6">
+            <div class="md:w-[22%]">
+                <img class="w-full rounded-md" src="../assets/img/image_mobile.png" alt="">
+                <h5 class="text-xl font-bold text-center mt-2">Your Name</h5>
+                <p class="text-center">Job Title</p>
+            </div>
+            <div class="md:w-[22%]">
+                <img class="w-full rounded-md" src="../assets/img/image_mobile.png" alt="">
+                <h5 class="text-xl font-bold text-center mt-2">Your Name</h5>
+                <p class="text-center">Job Title</p>
+            </div>
+            <div class="md:w-[22%]">
+                <img class="w-full rounded-md" src="../assets/img/image_mobile.png" alt="">
+                <h5 class="text-xl font-bold text-center mt-2">Your Name</h5>
+                <p class="text-center">Job Title</p>
             </div>
         </div>
     </div>

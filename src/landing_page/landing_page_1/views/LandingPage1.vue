@@ -353,7 +353,7 @@
                 <div class="mb-12">
                     <swiper
                         :slides-per-view="2"
-                        :space-between="50"
+                        :space-between="100"
                         :loop="true"
                         @swiper="onSwiper"
                         @slideChange="onSlideChange"
@@ -405,7 +405,7 @@
                 <div class="mb-12">
                     <swiper
                         :slides-per-view="2"
-                        :space-between="50"
+                        :space-between="100"
                         :loop="true"
                         @swiper="onSwiper"
                         @slideChange="onSlideChange"
