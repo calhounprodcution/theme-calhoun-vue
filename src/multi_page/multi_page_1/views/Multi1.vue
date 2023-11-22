@@ -48,35 +48,35 @@
             </div>
             <ul class="hidden cursor-pointer md:flex md:items-center md:gap-10">
                 <li class="nav-item">
-                    <RouterLink :to="{ name: 'large.large.1.home' }"
+                    <RouterLink :to="{ name: 'multi.page.1.home' }"
                                 :class="{ active: activeNav === 'home' }"
                                 @click.native="replaceActiveNav('home')">
                         Home
                     </RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink :to="{ name: 'large.large.1.about' }"
+                    <RouterLink :to="{ name: 'multi.page.1.about' }"
                                 :class="{ active: activeNav === 'about' }"
                                 @click.native="replaceActiveNav('about')">
                         About
                     </RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink :to="{ name: 'large.large.1.product' }"
+                    <RouterLink :to="{ name: 'multi.page.1.product' }"
                                 :class="{ active: activeNav === 'product' }"
                                 @click.native="replaceActiveNav('product')">
                         Product
                     </RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink :to="{ name: 'large.large.1.gallery' }"
+                    <RouterLink :to="{ name: 'multi.page.1.gallery' }"
                                 :class="{ active: activeNav === 'gallery' }"
                                 @click.native="replaceActiveNav('gallery')">
                         Gallery
                     </RouterLink>
                 </li>
                 <li class="nav-item">
-                    <RouterLink :to="{ name: 'large.large.1.contact' }"
+                    <RouterLink :to="{ name: 'multi.page.1.contact' }"
                                 :class="{ active: activeNav === 'contact' }"
                                 @click.native="replaceActiveNav('contact')">
                         Contact
@@ -95,7 +95,7 @@
         <div class="mobile-nav-wrap">
             <ul class="nav-mobile-lists">
                 <li class="nav-mobile-item">
-                    <RouterLink :to="{ name: 'large.large.1.home' }"
+                    <RouterLink :to="{ name: 'multi.page.1.home' }"
                                 class="nav-mobile-link"
                                 :class="{ active: activeNav === 'home' }"
                                 @click.native="replaceActiveNav('home')">
@@ -103,7 +103,7 @@
                     </RouterLink>
                 </li>
                 <li class="nav-mobile-item">
-                    <RouterLink :to="{ name: 'large.large.1.about' }"
+                    <RouterLink :to="{ name: 'multi.page.1.about' }"
                                 class="nav-mobile-link"
                                 :class="{ active: activeNav === 'about' }"
                                 @click.native="replaceActiveNav('about')">
@@ -111,7 +111,7 @@
                     </RouterLink>
                 </li>
                 <li class="nav-mobile-item">
-                    <RouterLink :to="{ name: 'large.large.1.product' }"
+                    <RouterLink :to="{ name: 'multi.page.1.product' }"
                                 class="nav-mobile-link"
                                 :class="{ active: activeNav === 'product' }"
                                 @click.native="replaceActiveNav('product')">
@@ -119,7 +119,7 @@
                     </RouterLink>
                 </li>
                 <li class="nav-mobile-item">
-                    <RouterLink :to="{ name: 'large.large.1.gallery' }"
+                    <RouterLink :to="{ name: 'multi.page.1.gallery' }"
                                 class="nav-mobile-link"
                                 :class="{ active: activeNav === 'gallery' }"
                                 @click.native="replaceActiveNav('gallery')">
@@ -127,7 +127,7 @@
                     </RouterLink>
                 </li>
                 <li class="nav-mobile-item">
-                    <RouterLink :to="{ name: 'large.large.1.contact' }"
+                    <RouterLink :to="{ name: 'multi.page.1.contact' }"
                                 class="nav-mobile-link"
                                 :class="{ active: activeNav === 'contact' }"
                                 @click.native="replaceActiveNav('contact')">

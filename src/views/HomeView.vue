@@ -5,14 +5,14 @@
 <template>
     <div class="h-screen w-screen flex flex-col justify-evenly p-8 items-center theme__root">
         <p class="text-4xl md:text-5xl font-bold text-white web__title">Calhoun Production</p>
-        <RouterLink to="/small">
-            <p class="button__theme" data-text="SMALL"><span>SMALL</span></p>
+        <RouterLink :to="{ name: 'landing.page' }">
+            <p class="button__theme" data-text="LANDING PAGE"><span>LANDING PAGE</span></p>
         </RouterLink>
-		<RouterLink to="/medium">
+		<!-- <RouterLink to="/medium">
 			<p class="button__theme" data-text="MEDIUM"><span>MEDIUM</span></p>
-        </RouterLink>
-		<RouterLink to="/large">
-			<p class="button__theme" data-text="LARGE"><span>LARGE</span></p>
+        </RouterLink> -->
+		<RouterLink :to="{ name: 'multi.page' }">
+			<p class="button__theme" data-text="MULTI PAGE"><span>MULTI PAGE</span></p>
         </RouterLink>
     </div>
 </template>

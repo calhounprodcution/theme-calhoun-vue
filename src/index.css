@@ -3,8 +3,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
-
 html {
     scroll-behavior: smooth
 }
@@ -12,6 +10,7 @@ html {
 body {
     @apply text-base;
     font-family: 'Open Sans', sans-serif;
+    line-height: normal;
 }
 
 span, a, i, u, b, strong {

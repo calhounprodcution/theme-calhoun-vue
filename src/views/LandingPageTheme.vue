@@ -9,12 +9,12 @@
                 <RouterLink to="/">
                     <i class="fa-solid fa-chevron-left text-xl"></i>
                 </RouterLink>
-                <h2 class="text-xl font-bold">LARGE THEME</h2>
+                <h2 class="text-xl font-bold">LANDING PAGE THEME</h2>
             </div>
             <div class="flex flex-wrap gap-y-10 justify-between">
                 <div class="w-full bg-white drop-shadow flex flex-col items-center p-2 md:w-[49%] xl:w-[24%]">
                     <img class="w-full" src="../assets/theme_large.jpg" alt="">
-                    <RouterLink :to="{ name: 'large.large.1.home' }">
+                    <RouterLink :to="{ name: 'landing.page.1' }">
                         <p class="button__open__theme button__tamaya" data-text="OPEN THEME"><span>OPEN THEME</span></p>
                     </RouterLink>
                 </div>

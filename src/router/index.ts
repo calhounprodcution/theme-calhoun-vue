@@ -10,19 +10,19 @@ const router = createRouter({
             component: HomeView
         },
 
-        // ======= SMALL THEME =======
+        // ======= LANDING PAGE THEME =======
         {
-            path: '/small',
-            name: 'small',
-            component: () => import('../views/SmallTheme.vue')
+            path: '/landing-page',
+            name: 'landing.page',
+            component: () => import('../views/LandingPageTheme.vue')
             // meta: {
             //     title: 'Learn | About Page'
             // }
         },
         {
-            path: '/small/small-1',
-            name: 'small.small.1',
-            component: () => import('../small/small_1/views/Small1.vue')
+            path: '/landing-page/landing-page-1',
+            name: 'landing.page.1',
+            component: () => import('../landing_page/landing_page_1/views/LandingPage1.vue')
         },
 
 
@@ -61,41 +61,41 @@ const router = createRouter({
         },
 
 
-        // ======= LARGE THEME =======
+        // ======= MULTI PAGE THEME =======
         {
-            path: '/large',
-            name: 'large',
-            component: () => import('../views/LargeTheme.vue'),
+            path: '/multi-page',
+            name: 'multi.page',
+            component: () => import('../views/MultiPageTheme.vue'),
         },
         {
-            path: '/large/large-1',
-            name: 'large.large.1',
-            component: () => import('../large/large_1/views/Large1.vue'),
+            path: '/multi-page/multi-page-1',
+            name: 'multi.page.1',
+            component: () => import('../multi_page/multi_page_1/views/Multi1.vue'),
             children: [
                 {
                     path: '',
-                    name: 'large.large.1.home',
-                    component: () => import('../large/large_1/views/Large1Home.vue')
+                    name: 'multi.page.1.home',
+                    component: () => import('../multi_page/multi_page_1/views/Multi1Home.vue')
                 },
                 {
                     path: 'about',
-                    name: 'large.large.1.about',
-                    component: () => import('../large/large_1/views/Large1About.vue')
+                    name: 'multi.page.1.about',
+                    component: () => import('../multi_page/multi_page_1/views/Multi1About.vue')
                 },
                 {
                     path: 'product',
-                    name: 'large.large.1.product',
-                    component: () => import('../large/large_1/views/Large1Product.vue')
+                    name: 'multi.page.1.product',
+                    component: () => import('../multi_page/multi_page_1/views/Multi1Product.vue')
                 },
                 {
                     path: 'gallery',
-                    name: 'large.large.1.gallery',
-                    component: () => import('../large/large_1/views/Large1Gallery.vue')
+                    name: 'multi.page.1.gallery',
+                    component: () => import('../multi_page/multi_page_1/views/Multi1Gallery.vue')
                 },
                 {
                     path: 'contact',
-                    name: 'large.large.1.contact',
-                    component: () => import('../large/large_1/views/Large1Contact.vue')
+                    name: 'multi.page.1.contact',
+                    component: () => import('../multi_page/multi_page_1/views/Multi1Contact.vue')
                 }
             ]
         },

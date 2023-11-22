@@ -224,9 +224,9 @@
         <section id="home" datasection class="h-screen w-screen" ref="home_section">
             <div class="px-4 sm:container mx-auto">
                 <div class="h-screen flex flex-col justify-center items-center md:items-start">
-                    <h1 class="text-5xl font-bold mb-4">Your Company</h1>
+                    <h1 class="text-4xl font-bold mb-4">Your Company</h1>
                     <h5 class="text-xl mb-8">Company Tagline</h5>
-                    <a href="#contact" class="bg-white w-[150px] text-dark hover:text-black text-center py-4 text-lg rounded-md font-semibold">Contact Us</a>
+                    <a href="#contact" class="bg-white w-[200px] text-dark hover:text-black text-center py-3 text-lg rounded-md font-semibold">Contact Us</a>
                 </div>
             </div>
         </section>
@@ -466,7 +466,7 @@
                         data-aos-easing="ease-in-sine">
                         - 05
                     </h5>
-                    <h2 class="text-[40px] font-bold py-3" 
+                    <h2 class="text-[40px] font-bold py-3 " 
                         data-aos="fade-right"
                         data-aos-offset="300"
                         data-aos-delay="300"
