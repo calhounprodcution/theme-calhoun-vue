@@ -3,7 +3,7 @@
         <div class="px-4 sm:container mx-auto h-full">
             <div class="flex justify-between items-center h-full w-full">
                 <div class="md:w-[55%]">
-                    <h1 class="text-[45px] mb-12 text-white">Who We Are</h1>
+                    <h1 class="text-[45px] mb-4 font-semibold text-white">Who We Are</h1>
                     <p class="my-4 text-justify text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam officiis accusantium in veritatis similique suscipit, omnis, cupiditate sed, cumque reprehenderit laborum labore alias est repellat consectetur quibusdam sapiente saepe.    
                     </p>
@@ -18,8 +18,41 @@
             </div>
         </div>
     </div>
-    <h1>HALLOOO</h1>
+    <div class="px-4 py-12 sm:container mx-auto">
+        <div class="flex flex-wrap justify-between gap-6">
+            <div class="md:w-[48%] card__product">
+                <h4 class="mb-4 text-3xl font-bold">Vision</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae dolor voluptatum vel tenetur.</p>
+                <!-- <ul class="list-disc ml-4">
+                    <li class="bg-red">Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
+                    <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
+                    <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
+                </ul> -->
+            </div>
+            <div class="md:w-[48%] card__product">
+                <h4 class="mb-4 text-3xl font-bold">Mission</h4>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit repudiandae dolor voluptatum vel tenetur.</p>
+                <!-- <ul class="list-disc ml-4">
+                    <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
+                    <li>Meet the needs of hospitals for the community for health equipment that has a competitive advantage</li>
+                </ul> -->
+            </div>
+        </div>
+    </div>
 </template>
 
 <style scoped>
+    .card__product {
+        padding: 50px;
+        background-color: white;
+        box-shadow: 0 2px 5px rgba(0,0,0,.5);
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        transition: box-shadow 400ms;
+    }
+    .card__product:hover {
+        box-shadow: -1px 0 5px rgba(0,0,0,.5);
+    }
 </style>

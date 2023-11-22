@@ -1,6 +1,6 @@
 <template>
     <div class="px-4 py-14 sm:container mx-auto">
-        <h2 class="text-[40px] font-semibold mb-20">Get In Touch With Us!</h2>
+        <h2 class="text-[40px] font-bold mb-20">Get In Touch With Us!</h2>
         <div class="flex justify-between gap-y-5 flex-wrap">
             <div class="flex flex-col gap-y-10 w-full md:w-[40%]">
                 <div>
@@ -14,8 +14,6 @@
                     <h4 class="text-2xl font-bold mb-4">Branch Office</h4>
                     <p>Jalan Anugerah No.116 Kp.Kebantenan Jatiasih, Jatiasih, Bekasi, Jawa Barat, 17423</p>
                     <p><span class="w-24">Phone</span>: 0817-6708-816</p>
-                    <p><span class="w-24">Email</span>: ptabadinusarayasakti@gmail.com</p>
-                    <p><span class="w-24">Marketing</span>: ptabadinusarayasakti@gmail.com</p>
                 </div>
                 <div>
                     <h4 class="text-2xl font-bold mb-5">Follow Us</h4>

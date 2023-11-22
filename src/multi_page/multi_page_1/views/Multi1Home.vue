@@ -93,7 +93,7 @@
 
     <div class="px-4 py-20 sm:container mx-auto">
         <div class="flex flex-col gap-y-5">
-            <h2 class="text-[35px] text-center font-semibold text-black850">Our Products</h2>
+            <h2 class="text-[35px] text-center font-bold text-black850">Our Products</h2>
             <p class="text-center text-black850">The products we sell are disposable products with the best quality, have complete certification, are registered in the E-Catalogue and have been tested in various hospitals throughout Indonesia.</p>
             <div class="flex flex-wrap justify-between gap-6 mt-8">
                 <div class="md:w-[47%] xl:w-[30%] card__product">
@@ -123,9 +123,17 @@
             </div>
         </div>
     </div>
+
+    <div class="bg-whitesmoke flex flex-col justify-center items-center px-8 py-20">
+        <h2 class="text-[35px] text-center font-bold text-black850 mb-8">Who We Are</h2>
+        <div class="w-[95%] md:w-[70%] xl:w-[50%]">
+            <iframe class="w-full rounded-md" height="315" src="https://www.youtube.com/embed/zk-H40Gp-oY?si=Kjxk72k7ZJYFJT89" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+
     <div class="px-4 py-20 sm:container mx-auto">
         <div class="flex flex-col gap-y-5">
-            <h2 class="text-[35px] text-center font-semibold text-black850">Our Adventages</h2>
+            <h2 class="text-[35px] text-center font-bold text-black850">Our Adventages</h2>
             <p class="text-center text-black850">As a medical device distributor company, we prioritize customer satisfaction with the best products and services.</p>
             <div class="flex flex-wrap justify-between gap-6 mt-8">
                 <div class="md:w-[47%] xl:w-[30%]">
@@ -171,7 +179,7 @@
         <div class="px-4 py-16 sm:container mx-auto">
             <div class="flex flex-col gap-y-4 md:justify-between md:flex-row md:items-center">
                 <div>
-                    <h3 class="text-2xl text-white font-semibold mb-4">Let's Get Started</h3>
+                    <h3 class="text-2xl text-white font-bold mb-4">Let's Get Started</h3>
                     <p class="text-white">Are you ready for better medical devices & hospital supplies?</p>
                 </div>
                 <a href="" class="bg-white py-3 px-12 rounded-md text-black text-center font-semibold">Contact US</a>

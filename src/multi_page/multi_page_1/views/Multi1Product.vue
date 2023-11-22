@@ -3,7 +3,7 @@
         <div class="px-4 sm:container mx-auto h-full">
             <div class="flex justify-between items-center h-full w-full">
                 <div class="md:w-[55%]">
-                    <h1 class="text-[45px] mb-12 text-white">Our Products</h1>
+                    <h1 class="text-[45px] mb-4 font-semibold text-white">Interesting Product</h1>
                     <p class="my-4 text-justify text-white">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit magnam officiis accusantium in veritatis similique suscipit, omnis, cupiditate sed, cumque reprehenderit laborum labore alias est repellat consectetur quibusdam sapiente saepe.    
                     </p>
@@ -43,7 +43,7 @@
         <div class="px-4 py-16 sm:container mx-auto">
             <div class="flex flex-col gap-y-4 md:justify-between md:flex-row md:items-center">
                 <div>
-                    <h3 class="text-2xl text-white font-semibold mb-4">Price List Of Products</h3>
+                    <h3 class="text-2xl text-white font-bold mb-4">Price List Of Products</h3>
                     <p class="text-white">Let's see the product price list at our company!</p>
                 </div>
                 <img class="h-24 w-24" src="../assets/img/qr_code.png" alt="">
