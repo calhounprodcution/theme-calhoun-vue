@@ -20,19 +20,19 @@
     </div>
     <div class="px-4 pt-28 pb-24 sm:container mx-auto">
         <div class="flex justify-between flex-wrap gap-5">
-            <div class="flex w-[49%] items-center gap-x-5">
+            <div class="flex md:w-[49%] items-center gap-x-5">
                 <img class="h-[100px] w-[49%]" src="../assets/img/image_desktop.png" alt="">
                 <p class="w-full">MEDDIS Sterile Latex Surgical Gloves Powder Free & MEDDIS Latex Examination Gloves Powder Free</p>
             </div>
-            <div class="flex w-[49%] items-center gap-x-5">
+            <div class="flex md:w-[49%] items-center gap-x-5">
                 <img class="h-[100px] w-[49%]" src="../assets/img/image_desktop.png" alt="">
                 <p class="w-full">MEDDIS Sterile Latex Surgical Gloves Powder Free & MEDDIS Latex Examination Gloves Powder Free</p>
             </div>
-            <div class="flex w-[49%] items-center gap-x-5">
+            <div class="flex md:w-[49%] items-center gap-x-5">
                 <img class="h-[100px] w-[49%]" src="../assets/img/image_desktop.png" alt="">
                 <p class="w-full">MEDDIS Sterile Latex Surgical Gloves Powder Free & MEDDIS Latex Examination Gloves Powder Free</p>
             </div>
-            <div class="flex w-[49%] items-center gap-x-5">
+            <div class="flex md:w-[49%] items-center gap-x-5">
                 <img class="h-[100px] w-[49%]" src="../assets/img/image_desktop.png" alt="">
                 <p class="w-full">MEDDIS Sterile Latex Surgical Gloves Powder Free & MEDDIS Latex Examination Gloves Powder Free</p>
             </div>
