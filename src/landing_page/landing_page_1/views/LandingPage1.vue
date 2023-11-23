@@ -20,13 +20,6 @@
                 ],
                 mobileNav: false,
                 activeNav: 'home',
-                allSection: [
-                    { name: 'home', offsetTop: -1, height: -1 },
-                    { name: 'about', offsetTop: -1, height: -1 },
-                    { name: 'service', offsetTop: -1, height: -1 },
-                    { name: 'client', offsetTop: -1, height: -1 },
-                    { name: 'contact', offsetTop: -1, height: -1 },
-                ]
             };
         },
         // beforeMount: function() {
@@ -37,55 +30,19 @@
         // },
         mounted: function() {
             AOS.init()
-            // this.getOffsetTopElement()
         },
         methods: {
-            getOffsetTopElement: function() {
-                const home_section = this.$refs['home_section'] as HTMLElement;
-                const about_section = this.$refs['about_section'] as HTMLElement;
-                const service_section = this.$refs['service_section'] as HTMLElement;
-                const client_section = this.$refs['client_section'] as HTMLElement;
-                const contact_section = this.$refs['contact_section'] as HTMLElement;
-                this.allSection = [
-                    { 
-                        name: 'home', 
-                        offsetTop: home_section.offsetTop, 
-                        height: home_section.getBoundingClientRect().height 
-                    },
-                    { 
-                        name: 'about', 
-                        offsetTop: about_section.offsetTop, 
-                        height: about_section.getBoundingClientRect().height 
-                    },
-                    { 
-                        name: 'service', 
-                        offsetTop: service_section.offsetTop, 
-                        height: service_section.getBoundingClientRect().height 
-                    },
-                    { 
-                        name: 'client', 
-                        offsetTop: client_section.offsetTop, 
-                        height: client_section.getBoundingClientRect().height 
-                    },
-                    { 
-                        name: 'contact', 
-                        offsetTop: contact_section.offsetTop, 
-                        height: contact_section.getBoundingClientRect().height 
-                    },
-                ]
-                
-            },
             handleScroll: function () {
-                this.allSection.forEach(section => {
-                    let top = window.scrollY;
-                    let offset = section.offsetTop
-                    let height = section.height
-                    if (height > 0) {
-                        if (top >= offset && top < offset + height) {
-                            this.activeNav = section.name
-                        }
-                    }
-                })
+                // this.allSection.forEach(section => {
+                //     let top = window.scrollY;
+                //     let offset = section.offsetTop
+                //     let height = section.height
+                //     if (height > 0) {
+                //         if (top >= offset && top < offset + height) {
+                //             this.activeNav = section.name
+                //         }
+                //     }
+                // })
             },
             showMenuMobile: function() {
                 this.mobileNav = !this.mobileNav;
@@ -224,8 +181,10 @@
         <section id="home" datasection class="h-screen w-screen" ref="home_section">
             <div class="px-4 sm:container mx-auto">
                 <div class="h-screen flex flex-col justify-center items-center md:items-start">
-                    <h1 class="text-4xl font-bold mb-4">Your Company</h1>
-                    <h5 class="text-xl mb-8">Company Tagline</h5>
+                    <div class="typewriter">
+                        <h1 class="text-4xl pr-1 font-bold mb-4">Calhoun Production</h1>
+                    </div>
+                    <h5 class="text-xl mb-8">Rinding the Wave</h5>
                     <a href="#contact" class="bg-white w-[200px] text-dark hover:text-black text-center py-3 text-lg rounded-md font-semibold">Contact Us</a>
                 </div>
             </div>
@@ -530,7 +489,9 @@
         <!-- START BUTTON WHATSAPP -->
         <div id="whatsapp_button" class="fixed bottom-10 right-4 z-[9999]">
             <a href="https://wa.me/6288225184769?text=Halooo" class="flex items-center gap-x-4" target="_blank">
-                <p class="chat-whatsapp">Chat with us</p>
+                <div class="chat-whatsapp-wrap">
+                    <p class="chat-whatsapp">Chat with us</p>
+                </div>
                 <img src="../assets/img/logo_whatsapp.svg" alt="">
             </a>
         </div>
@@ -647,4 +608,26 @@
         border: 2px solid black;
     }
     /* END SECTIONS */
+    .typewriter h1{
+        color: #fff;
+        overflow: hidden;
+        border-right: .1em solid #fff;
+        white-space: nowrap;
+        margin: 0 auto;
+        animation: 
+            typing 3.5s steps(30, end),
+            blink-caret .5s step-end infinite;
+    }
+
+    /* The typing effect */
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+    }
+
+    /* The typewriter cursor effect */
+    @keyframes blink-caret {
+        from, to { border-color: transparent }
+        50% { border-color: #FFF }
+    }
 </style>

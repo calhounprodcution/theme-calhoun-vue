@@ -167,7 +167,9 @@
         <!-- START BUTTON WHATSAPP -->
         <div id="whatsapp_button" class="fixed bottom-10 right-4 z-[9999]">
             <a href="https://wa.me/6288225184769?text=Halooo" class="flex items-center gap-x-4" target="_blank">
-                <p class="chat-whatsapp">Chat with us</p>
+                <div class="chat-whatsapp-wrap">
+                    <p class="chat-whatsapp">Chat with us</p>
+                </div>
                 <img src="../assets/img/logo_whatsapp.svg" alt="">
             </a>
         </div>
