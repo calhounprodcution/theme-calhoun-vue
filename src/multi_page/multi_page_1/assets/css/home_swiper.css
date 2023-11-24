@@ -1,0 +1,14 @@
+/* NAVIGATION */
+.swiper-button-prev::after, 
+.swiper-button-next::after {
+    font-size: 30px;
+    color: #FFFFFF;
+}
+
+/* BULLET */
+.swiper-pagination-bullet {
+    background-color: #FFFFFF;
+}
+.swiper-pagination-bullet-active {
+    background: #FFFFFF;
+}

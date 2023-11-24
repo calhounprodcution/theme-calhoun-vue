@@ -8,6 +8,7 @@
     import 'swiper/css';
     import 'swiper/css/pagination';
     import 'swiper/css/navigation';
+    import '../assets/css/home_swiper.css'
 
     export default {
         components: {
@@ -33,6 +34,9 @@
             return {
                 onSwiper,
                 onSlideChange,
+                pagination: {
+                    clickable: true,
+                },
                 modules: [Autoplay, Pagination, Navigation]
             };
         },
@@ -52,7 +56,7 @@
             :modules="modules"
             
             :navigation="true"
-            :pagination="true"
+            :pagination="pagination"
         >
             <swiper-slide>
                 <img src="../assets/img/image_desktop.png" class="h-[calc(100vh-70px)] w-screen" alt="">
@@ -77,7 +81,7 @@
             :modules="modules"
             
             :navigation="true"
-            :pagination="true"
+            :pagination="pagination"
         >
             <swiper-slide class="md:hidden">
                 <img src="../assets/img/image_mobile.png" class="h-[calc(100vh-70px)] w-screen" alt="">
@@ -93,32 +97,60 @@
 
     <div class="px-4 py-20 sm:container mx-auto">
         <div class="flex flex-col gap-y-5">
-            <h2 class="text-[35px] text-center font-bold text-black850">Our Products</h2>
-            <p class="text-center text-black850">Lorem ipsum dolor sit, amet consectetur adipisicing elit.</p>
+            <h2 class="text-[35px] text-center font-bold text-black850"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                Our Products
+            </h2>
+            <p class="text-center text-black850"
+                data-aos="fade-up"
+                data-aos-offset="300"
+                data-aos-easing="ease-in-sine">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+            </p>
             <div class="flex flex-wrap justify-between gap-6 mt-8">
-                <div class="md:w-[47%] xl:w-[30%] card__product">
-                    <i class="fa-solid fa-paper-plane text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
-                    <p class="text-black850 text-center mb-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
-                    </p>
-                    <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                <div class="md:w-[47%] xl:w-[30%]">
+                    <div class="card__product"
+                        data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-delay="0"
+                        data-aos-easing="ease-in-sine">
+                        <i class="fa-solid fa-paper-plane text-[150px]"></i>
+                        <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
+                        <p class="text-black850 text-center mb-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
+                        </p>
+                        <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                    </div>
                 </div>
-                <div class="md:w-[47%] xl:w-[30%] card__product">
-                    <i class="fa-solid fa-wifi text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
-                    <p class="text-black850 text-center mb-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
-                    </p>
-                    <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                <div class="md:w-[47%] xl:w-[30%]">
+                    <div class="card__product"
+                        data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-delay="100"
+                        data-aos-easing="ease-in-sine">
+                        <i class="fa-solid fa-wifi text-[150px]"></i>
+                        <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
+                        <p class="text-black850 text-center mb-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
+                        </p>
+                        <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                    </div>
                 </div>
-                <div class="md:w-[47%] xl:w-[30%] card__product">
-                    <i class="fa-solid fa-stopwatch text-[150px]"></i>
-                    <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
-                    <p class="text-black850 text-center mb-8">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
-                    </p>
-                    <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                <div class="md:w-[47%] xl:w-[30%]">
+                    <div class="card__product"
+                        data-aos="fade-up"
+                        data-aos-offset="300"
+                        data-aos-delay="200"
+                        data-aos-easing="ease-in-sine">
+                        <i class="fa-solid fa-stopwatch text-[150px]"></i>
+                        <h4 class="mb-4 mt-8 text-2xl text-center font-bold">Adventage 1</h4>
+                        <p class="text-black850 text-center mb-8">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam temporibus reiciendis laborum enim quae quod alias illo maxime distinctio blanditiis.
+                        </p>
+                        <a href="" class="bg-black py-3 px-10 rounded-md text-white text-center font-semibold">Learn More</a>
+                    </div>
                 </div>
             </div>
         </div>
@@ -362,7 +394,6 @@
         flex-direction: column;
         align-items: center;
         justify-content: space-between;
-        transition: box-shadow 400ms;
     }
     .card__product:hover {
         box-shadow: -1px 0 5px rgba(0,0,0,.5);
